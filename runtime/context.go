@@ -64,7 +64,7 @@ func decodeBinHeader(v string) ([]byte, error) {
 
 /*
 AnnotateContext adds context information such as metadata from the request.
-
+	TODO: make/check for another http service
 At a minimum, the RemoteAddr is included in the fashion of "X-Forwarded-For",
 except that the forwarded destination is not another HTTP service but rather
 a gRPC service.

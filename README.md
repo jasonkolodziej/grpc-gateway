@@ -22,9 +22,12 @@ annotations in your service definitions.
 
 This helps you provide your APIs in both gRPC and RESTful style at the same time.
 
-<div align="center">
-<img src="docs/assets/images/architecture_introduction_diagram.svg" />
-</div>
+[comment]: <> (<div align="center">)
+
+[comment]: <> (<img src="docs/assets/images/architecture_introduction_diagram.svg" />)
+
+[comment]: <> (</div>)
+![](./docs/assets/images/architecture_introduction_diagram.svg)
 
 ## Docs
 

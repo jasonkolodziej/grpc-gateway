@@ -14,6 +14,7 @@ import (
 )
 
 // newGateway returns a new gateway server which translates HTTP into gRPC.
+// TODO: redefine for http client based mux
 func newGateway(ctx context.Context, conn *grpc.ClientConn, opts []gwruntime.ServeMuxOption) (http.Handler, error) {
 
 	mux := gwruntime.NewServeMux(opts...)
